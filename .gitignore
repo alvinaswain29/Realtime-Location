@@ -1,0 +1,30 @@
+# node_modules/ should never be pushed
+node_modules/
+
+# Hide environment secrets like API keys
+.env
+
+# Logs and debug files
+*.log
+logs/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+
+# Optional cache/build/output folders
+dist/
+build/
+.cache/
+
+# Firebase debug logs (if any)
+firebase-debug.log
+
+# Ignore dotenv environment variants
+.env.local
+.env.production
+.env.test
